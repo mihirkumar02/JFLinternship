@@ -1,13 +1,120 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html{
+  scroll-behavior: smooth;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  font-family: "Exo", sans-serif;
+  overflow: hidden;
+}
+
+
+.Landing{
+  padding: 10vh 0;
+}
+
+.welcome{
+  margin-top: 30vh;
+  display: flex;
+  content: "";
+  justify-content: center;
+}
+
+.storeadd{
+  margin-top: 20vh;
+  min-height: 80vh;
+}
+
+.searchpage{
+  margin-top: 20vh;
+  min-height: 50vh;
+}
+
+.storesearch{
+  margin: 20vh 0;
+}
+
+
+.formbox{
+  margin: 0 auto;
+  width: 60%;
+  padding: 40px 20px 15px 20px;
+  box-shadow: 0 1px 7px -3px black;
+  min-height: 25vh;
+}
+
+.topmargin{
+  margin-top: 10px;
+}
+
+.Edit{
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+.formboxedit{
+  margin: 10vh auto 2vh auto;
+  width: 40%;
+  padding: 40px 20px 15px 20px;
+  box-shadow: 0 1px 7px -3px black;
+  min-height: 25vh;
+}
+
+
+.nav-item a:hover{
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+.active{
+  color: yellow !important;
+}
+
+.form-icon{
+  margin-top: 7px;
+  font-size: 20px;
+}
+
+.left{
+  box-shadow: 3px 0 6px -3px black;
+  height: 100vh;
+  padding-top: 10vh;
+}
+
+.right{
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.leftonmap{
+  box-shadow: 3px 0 6px -3px black;
+  height: 100vh;
+  padding-top: 10vh;
+  overflow-y: hidden;
+}
+
+.rightonmap{
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.rightonedit{
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.searchoption{
+  height: 30vh;
+  padding-top: 10vh;
+}
+
+.leftonmap a{
+  color: black;
+}
+
+.leftonmap a:hover{
+  text-decoration: none;
+}
+
+.leftonmap .active{
+  color: blue !important;
 }
